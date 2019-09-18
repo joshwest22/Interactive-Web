@@ -2,8 +2,15 @@
 <head> <link rel="stylesheet" type="text/css" href="stylesheet.css"></head>
 <body> 
  <h1> iSpy</h1>   
-<p> Click on the pink paperclip</p>
-  <img id= "firstimage" src="ispy1.jpg" onclick="switchImage()" style="width:auto;height:auto;"> 
-<script src="javascript.js"> </script>
+<h3 id="itemPrompt"> For 1st image: Click on the pink paperclip. <br />
+    For 2nd image: Click on the yellow car. <br /></h3>
+<div class="first">
+  <img id= "firstimage" src="ispy1.jpg" onclick="switchImage()" style="width:500px;height:auto;"> 
+</div>
+    <br />
+<div class="second">
+<button id="h3button" onclick="showHint()" > Need a Hint?</button>
+<button id="funfact" onclick="funFact()" > Fun Fact</button>
+    <script src="javascript.js"> </script></div>
 </body>
 </html>
